@@ -255,8 +255,8 @@ SELECT
 FROM `bright_tv`.`default`.`bright_tv_vierweship`;
 
   ---------------------------------------------------------------------------
- -- create ctes for final data for anylsis
- -- perform left joins
+ -- create ctes for final dataset for anylsis and dashbourd
+ -- perform inner join
   ---------------------------------------------------------------------------
 
 WITH user_profile AS (
